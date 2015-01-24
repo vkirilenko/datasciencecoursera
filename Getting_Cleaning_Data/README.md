@@ -12,3 +12,16 @@ Dataset can be retrieved from here: https://d396qusza40orc.cloudfront.net/getdat
 
 Please, type 'source("run_analysis.R")' in your R console. 
 Then, type 'run_analysis()' for start script.
+
+## What R script does:
+
++ Reads files with data
++ Calculates list of MEAN and STD values from feature data
++ Replaces service symbols "()" and "-" in feature table
++ Assigns descriptive activity names to name the activities in the table
++ Merges all data in one object with subsetting MEAN and STD columns
++ Renames column names in merged file and adding SUBJECT and ACTIVITY columns.
+  Also script sorts data in a file in ascending order.
++ Creates a second tidy data set with the average of each variable
+  for each activity and each subject. 
++ Writing new tidy data set into file.
