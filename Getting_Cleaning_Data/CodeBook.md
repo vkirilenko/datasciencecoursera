@@ -17,9 +17,9 @@ For each record in the dataset it is provided:
 
 ## Feature data:
 
-+**"Code"**: unique identifier of the activities of each research subject
++ **"Code"**: unique identifier of the activities of each research subject
 
-+**"Subject"**: code number of each subject (30 unique subjects)
++ **"Subject"**: code number of each subject (30 unique subjects)
 
 Average calculations of sensors data on various movements and their deviations:
 + **"tBodyAcc_mean__X"** - Average of tBodyAcc mean value at X-axis
@@ -69,7 +69,7 @@ Average calculations of sensors data on various movements and their deviations:
 + **"fBodyAcc_std__Y"** - Average of fBodyAcc standard deviation at Y-axis
 + **"fBodyAcc_std__Z"** - Average of fBodyAcc standard deviation at Z-axis
 + **"fBodyAcc_meanFreq__X"** - Average of fBodyAcc mean frequency at X-axis
-+ ** "fBodyAcc_meanFreq__Y"** - Average of fBodyAcc mean frequency at Y-axis
++ **"fBodyAcc_meanFreq__Y"** - Average of fBodyAcc mean frequency at Y-axis
 + **"fBodyAcc_meanFreq__Z"** - Average of fBodyAcc mean frequency at Z-axis
 + **"fBodyAccJerk_mean__X"** - Average of fBodyAccJerk mean value at X-axis
 + **"fBodyAccJerk_mean__Y"** - Average of fBodyAccJerk mean value at Y-axis
@@ -113,7 +113,7 @@ All data are normalized. Some unused data are removed.
 All feature names are listed according to their numbering on the columns.
 
 
-+**"Activity"**: description of types of activities (6 types)
++ **"Activity"**: description of types of activities (6 types)
 Types: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
