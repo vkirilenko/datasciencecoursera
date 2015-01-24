@@ -24,4 +24,4 @@ Then, type 'run_analysis()' for start script.
   Also script sorts data in a file in ascending order.
 + Creates a second tidy data set with the average of each variable
   for each activity and each subject. 
-+ Writing new tidy data set into file.
++ Writes new tidy data set into file.
