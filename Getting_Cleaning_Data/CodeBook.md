@@ -79,7 +79,7 @@ Average calculations of sensors data on various movements and their deviations:
 + **"fBodyAccJerk_std__Z"** - Average of fBodyAccJerk standard deviation at Z-axis
 + **"fBodyAccJerk_meanFreq__X"** - Average of fBodyAccJerk mean frequency at X-axis
 + **"fBodyAccJerk_meanFreq__Y"** - Average of fBodyAccJerk mean frequency at Y-axis
-+ **"fBodyAccJerk_meanFreq__Z" ** - Average of fBodyAccJerk mean frequency at Z-axis
++ **"fBodyAccJerk_meanFreq__Z"** - Average of fBodyAccJerk mean frequency at Z-axis
 + **"fBodyGyro_mean__X"** - Average of fBodyGyro mean value at X-axis
 + **"fBodyGyro_mean__Y"** - Average of fBodyGyro mean value at Y-axis
 + **"fBodyGyro_mean__Z"** - Average of fBodyGyro mean value at Z-axis
