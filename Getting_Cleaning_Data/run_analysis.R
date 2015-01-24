@@ -4,7 +4,7 @@ run_analysis = function(){
   print("Author:Vladimir Kirilenko")
   print("Let`s start!")
   print("-------------")
-  print("")
+
   
 ## Reading files with data
   print("Reading data files.")
@@ -55,6 +55,6 @@ run_analysis = function(){
   output = data.frame(output[,lapply(.SD,mean),by=Code])
   output$Activity = activity_labels$V2
   print("Saving data...")
-  write.table(output,"tidy_data.txt",)
+  write.table(output,"tidy_data.txt",row.name=FALSE)
   print("Done!")
 }
